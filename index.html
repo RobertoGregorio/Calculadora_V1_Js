@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+  <div id="CheckBox">
+      <div id="buttom" onclick="AlterTheme()">
+        <img src="icons/sol.png" alt="" id="icon">
+      </div>
+  </div>
+ 
+    <div id="divMain" >      
+            <tr>
+                <p id="NumberBox"></p>
+            </tr>
+            <tr>
+                <td class="btnCalc"> <input type="button" value="7" id="n7" onclick="AddValue(value)"></td>
+                <td> <input type="button" value="8" id="n8" onclick="AddValue(value)"></td>
+                <td> <input type="button" value="9" id="n9" onclick="AddValue(value)"></td>
+                <td> <input type="button" value="<" id="btnClean" onclick="BackValue()"></td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="4" id="n4" onclick="AddValue(value)"></td>
+                <td> <input type="button" value="5" id="n5" onclick="AddValue(value)"></td>
+                <td><input type="button" value="6" id="n6" onclick="AddValue(value)"></td>
+                <td> <input type="button" value='/' id="btnShr" onclick="AddValue(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" id="n1" onclick="AddValue(value)"></td>
+                <td><input type="button" value="2" id="n2" onclick="AddValue(value)"></td>
+                <td><input type="button" value="3" id="n3" onclick="AddValue(value)"></td>
+                <td><input type="button" value="*" id="btnMult" onclick="AddValue(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" id="n0" onclick="AddValue(value)"></td>
+                <td><input type="button" value="." id="point" onclick="AddValue(value)"></td>
+                <td><input type="button" value="+" id="btnSum" onclick="AddValue(value)"></td>
+                <td> <input type="button" value="-" id="btnSub" onclick="AddValue(value)"></td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="=" id="result" onclick="calculator()" ></td>
+                <td> <input type="button" value="C" id="btnClean" onclick="CleanValue()"></td>
+            </tr>
+    </div>
+    <footer>&copy; Calculadora v1</footer>
+
+    <script src="Script.js" type="text/javascript"></script>
+</body>
+
+</html>
