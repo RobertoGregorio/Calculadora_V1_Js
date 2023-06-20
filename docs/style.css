@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    background-color: #899DD9;
+
+}
+
+#CheckBox{
+    width: 50px;
+    height: 22px;
+    background-color: #6BB3F2;
+    position: relative;
+    border-radius: 12px;
+    content:'' ;
+    
+}
+
+#buttom{
+    width: 25px;
+    height: 23px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    top:2px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+#icon{
+    margin: auto;
+    margin-left: 4px;
+    margin-top: 1px;
+    width: 17px;
+    height: 20px;
+}
+
+
+input {
+    width: 60px;
+    height: 52px;
+    border: 0;
+    margin:auto;  
+    margin-bottom: 3px;
+    border-radius: 4px; 
+    color: #393E42;
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+p{
+    margin-top: 30%;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 400;
+    background-color: white;
+    border: black;
+    height: 50px;
+    font-size: 30px;
+    text-align: start;
+    
+    
+}
+
+#divMain{
+    text-align: center;
+    width: 270px;
+    height: 375px;
+    background-color: #7ca1b3;
+    border-radius: 5px;
+    margin:auto;
+    padding-bottom: 3px;
+}
+
+#result{
+    width: 187px;
+    margin-left: 0;
+}
+
+footer{
+    color: wheat;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
